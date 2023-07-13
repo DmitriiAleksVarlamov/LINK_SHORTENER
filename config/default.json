@@ -1,0 +1,14 @@
+{
+    "server": {
+        "port": 2345
+    },
+    "app": {
+        "cookieSecret": "secret key",
+        "session": {
+            "cookie": { "maxAge": 3600000 },
+            "secret": "secret key",
+            "resave": true,
+            "saveUninitialized": true
+        }
+    }
+}
